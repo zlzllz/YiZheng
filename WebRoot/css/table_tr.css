@@ -1,0 +1,67 @@
+body {
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 180%;
+	padding-top: 20px;
+	background:url(../images/51.jpg);
+	background-size: 100% 220%;
+} 
+
+.searchh{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	-webkit-appearance: textfield;
+}
+
+table tr:first-child {
+	background: #0066CC;
+	color: #fff;
+	font-weight: bold;
+} 
+
+/* border:0;  */
+table {
+	border-top: 1pt solid #C1DAD7;
+	border-left: 1pt solid #C1DAD7;
+	margin: 0 auto;
+	width:80%;
+	align:center;
+	cellpadding:4px;
+	cellspacing:1px;
+	margin-bottom:8px
+}
+
+td {
+	padding: 5px 10px;
+	text-align: center;
+	border-right: 1pt solid #C1DAD7;
+	border-bottom: 1pt solid #C1DAD7;
+	word-break:break-all;
+	word-wrap:break-word;
+	height:32px;
+}
+
+tr:nth-of-type(odd) {
+	background: #F5FAFA;
+} 
+tr:hover {
+	background: #E0F0F0;
+}
+
+.aa{
+	border: solid 1px #0080ff;
+	background: transparent;
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 6px 15px;
+	margin: 0;
+	display: inline-block;
+	line-height: 20px;
+	transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1) 0s;
+	background-color: #94e9eb;
+}
+
+a:link { font-size: 15pt; color: #000000; text-decoration: none; font-family: "宋体"; }
+a:visited{ font-size: 15pt; color: #000000; text-decoration: none; font-family: "宋体"; }
+a:hover {color: red; font-family: "宋体";}

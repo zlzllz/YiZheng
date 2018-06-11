@@ -1,0 +1,141 @@
+body {
+	font-family: Arial, Helvetica, sans-serif, "����";
+	margin: 0px;
+	padding: 0px;
+}
+
+.aaa {
+	border: solid 1px #808080;
+	background: transparent;
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 4px 6px;
+	margin: 0;
+	display: inline-block;
+	line-height: 20px;
+	transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1) 0s;
+	background-color: #94e9eb;
+}
+
+.aaa:link { font-size: 12pt; color: #000000; text-decoration: none; font-family: ""����""; }
+.aaa:visited{ font-size: 12pt; color: #000000; text-decoration: none; font-family: ""����""; }
+.aaa:hover {color: red; font-family: ""����"";}
+
+#tuichu {
+	position: absolute;
+	left: 1300px;
+	width: 520px;
+	top:53px;
+}
+
+#zhi {
+	margin-top:0px;
+	position: absolute;
+	width: 960px;
+	height: 95px;
+	letter-spacing: 5px; 
+}
+
+#time {
+	border: #cacfdf 10px solid;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	over-flow: hidden;
+	width: 450px;
+	height: 72px; 
+	position: relative;  
+	left:970px;                                                                                                                                                                   
+}
+
+.time_1, .time_2, .time_3, .time_4, .time_5, .time_6 {
+	display: inline;
+	float: left;
+	width: 28px;
+	height: 38px;
+	margin: 0 0 0 6px;
+	background: url(/images/time_img/00.gif);
+}
+
+.dian {
+	width: 10px;
+	height: 38px;
+	margin: 0 0 0 6px;
+	background: url(/images/time_img/dian.gif);
+	float: left;
+}
+
+#dian {
+	background: url(/images/time_img/dian_bg.gif);
+}
+
+.s1 {
+	width: 11px;
+	height: 14px;
+	float: left;
+	margin: 24px 0 0 20px;
+	background: url(/images/time_img/s00.gif);
+}
+
+.date {
+	float: left;
+	margin: 0 0 0 20px;
+	height: 38px;
+	width: 38px;
+	background: url(/images/time_img/date_bg.gif) no-repeat;
+}
+
+.date_left {
+	display: inline;
+	float: left;
+	width: 16px;
+	height: 32px;
+	margin: 5px 0 0 3px;
+}
+
+.date_right {
+	float: left;
+	width: 16px;
+	height: 32px;
+	margin: 5px 0 0 0;
+}
+
+.right {
+	float: left;
+	margin: 2px 0 0 10px;
+	font-size: 12px;
+	height: 38px;
+}
+
+.r_1, .r_2, .r_3, .r_4, .r_5, .r_6 {
+	display: inline;
+	float: left;
+	width: 9px;
+	height: 12px;
+	margin: 0 0 0 2px;
+}
+
+.heng {
+	width: 8px;
+	height: 12px;
+	background: url(/images/time_img/heng.gif) no-repeat;
+	float: left;
+	margin: 0 0 0 2px;
+}
+
+.eng {
+	float: left;
+	margin: 0 0 0 10px;
+	color: #0d6217;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.zhou {
+	dispaly: inline;
+	float: left;
+	margin: 5px 0 0 5px;
+}
+
+.clear {
+	clear: both;
+}
